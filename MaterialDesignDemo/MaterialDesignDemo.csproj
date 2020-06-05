@@ -8,20 +8,22 @@
 
   <ItemGroup>
     <None Remove="background.jpg" />
+    <None Remove="image\tx.jpg" />
     <None Remove="theme\iconfont.ttf" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="3.1.3" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="image\background.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="theme\iconfont.ttf">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="image\tx.jpg" />
+    <Resource Include="theme\iconfont.ttf" />
   </ItemGroup>
 
 </Project>
